@@ -1,0 +1,71 @@
+package hu.unideb.fitbase.commons.pojo.validator;
+
+import java.io.Serializable;
+
+/**
+ * Violation data which is made by a rule when the validation was not successful.
+ */
+
+public class Violation implements Serializable {
+
+    private String field;
+
+    private String validationMessage;
+
+    public Violation() {
+    }
+
+    public Violation(String field, String validationMessage) {
+        this.field = field;
+        this.validationMessage = validationMessage;
+    }
+
+    public String getField() {
+        return field;
+    }
+
+    public void setField(String field) {
+        this.field = field;
+    }
+
+    public String getValidationMessage() {
+        return validationMessage;
+    }
+
+    public void setValidationMessage(String validationMessage) {
+        this.validationMessage = validationMessage;
+    }
+
+    public static ViolationBuilder builder() {
+        return new ViolationBuilder();
+    }
+
+    public static final class ViolationBuilder {
+        private String field;
+        private String validationMessage;
+
+        private ViolationBuilder() {
+        }
+
+        public static ViolationBuilder aViolation() {
+            return new ViolationBuilder();
+        }
+
+        public ViolationBuilder field(String field) {
+            this.field = field;
+            return this;
+        }
+
+        public ViolationBuilder validationMessage(String validationMessage) {
+            this.validationMessage = validationMessage;
+            return this;
+        }
+
+        public Violation build() {
+            Violation violation = new Violation();
+            violation.setField(field);
+            violation.setValidationMessage(validationMessage);
+            return violation;
+        }
+    }
+}
