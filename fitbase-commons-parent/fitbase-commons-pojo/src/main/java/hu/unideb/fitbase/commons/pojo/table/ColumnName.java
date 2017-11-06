@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class ColumnName {
 
     /**
-     * User column name.
+     * Data column name.
      */
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class UserColumName {
