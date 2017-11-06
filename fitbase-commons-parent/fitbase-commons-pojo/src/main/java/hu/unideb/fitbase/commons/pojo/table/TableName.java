@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public final class TableName {
 
     /**
-     * Data table.
+     * User table.
      */
     public static final String TABLE_NAME_USER = "user";
 
@@ -35,7 +35,7 @@ public final class TableName {
     public static final String TABLE_NAME_CUSTOMER_HISTORY = "customerhistory";
 
     /**
-     * Data has gym table.
+     * User has gym table.
      */
     public static final String TABLE_NAME_USER_HAS_GYM = "user_has_gym";
 

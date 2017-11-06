@@ -11,10 +11,10 @@ import java.util.Collection;
 import java.util.Date;
 
 /**
- * Data domain class.
+ * User domain class.
  */
 @Builder
-public class Data implements UserDetails {
+public class User implements UserDetails {
 
     private Long id;
 
@@ -38,7 +38,7 @@ public class Data implements UserDetails {
 
     private Date lastPasswordResetDate;
 
-    public Data(
+    public User(
             Long id,
             String username,
             String firstName,

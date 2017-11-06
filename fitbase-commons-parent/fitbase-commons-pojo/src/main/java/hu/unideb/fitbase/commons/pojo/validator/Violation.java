@@ -3,7 +3,7 @@ package hu.unideb.fitbase.commons.pojo.validator;
 import java.io.Serializable;
 
 /**
- * Violation data which is made by a rule when the validation was not successful.
+ * Violation user which is made by a rule when the validation was not successful.
  */
 
 public class Violation implements Serializable {

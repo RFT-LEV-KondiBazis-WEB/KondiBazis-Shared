@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 public class ViolationResponse implements Serializable {
 
-    private List<Violation> violationList;
+    private List<Violation> errors;
 
     public static ViolationResponseBuilder builder() {
         return new ViolationResponseBuilder();
@@ -30,7 +30,7 @@ public class ViolationResponse implements Serializable {
         }
 
         public ViolationResponseBuilder violationList(List<Violation> violationList) {
-            violationResponse.setViolationList(violationList);
+            violationResponse.setErrors(violationList);
             return this;
         }
 

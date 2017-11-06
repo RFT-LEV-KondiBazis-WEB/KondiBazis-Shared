@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class LoginSuccesResponse {
 
-    private hu.unideb.fitbase.commons.pojo.response.Data data;
+    private Object data;
 
     private Meta meta;
 }

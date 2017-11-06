@@ -9,18 +9,18 @@ import java.util.List;
  */
 public class ViolationException extends BaseException {
 
-    private List<Violation> violationList;
+    private List<Violation> errors;
 
 
     public ViolationException(List<Violation> violationList) {
-        this.violationList = violationList;
+        this.errors = violationList;
     }
 
     public List<Violation> getViolationList() {
-        return this.violationList;
+        return this.errors;
     }
 
     public String toString() {
-        return "ViolationException{violationList=" + this.violationList + '}';
+        return "ViolationException{errors=" + this.errors + '}';
     }
 }
