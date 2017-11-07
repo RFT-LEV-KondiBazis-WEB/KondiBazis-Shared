@@ -1,4 +1,4 @@
-package hu.unideb.fitbase.commons.pojo.response.login;
+package hu.unideb.fitbase.commons.pojo.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,8 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class LoginSuccesResponse {
-
     private Object data;
-
-    private Meta meta;
+    private MetaResponse meta;
 }

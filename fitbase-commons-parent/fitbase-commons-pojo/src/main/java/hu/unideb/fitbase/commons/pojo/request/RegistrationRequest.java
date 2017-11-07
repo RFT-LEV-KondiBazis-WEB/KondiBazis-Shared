@@ -19,6 +19,8 @@ public class RegistrationRequest implements Serializable {
 
     private String password;
 
+    private String passwordConfirm;
+
     private String firstName;
 
     private String lastName;

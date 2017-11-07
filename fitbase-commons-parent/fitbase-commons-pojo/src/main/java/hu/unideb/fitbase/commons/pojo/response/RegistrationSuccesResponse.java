@@ -1,12 +1,12 @@
-package hu.unideb.fitbase.commons.pojo.response.login;
+package hu.unideb.fitbase.commons.pojo.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Meta {
-    private String token;
+@Data
+public class RegistrationSuccesResponse {
+    private MetaResponse meta;
 }
