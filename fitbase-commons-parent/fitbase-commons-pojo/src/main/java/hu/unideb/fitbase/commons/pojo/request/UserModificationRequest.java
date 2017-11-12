@@ -11,7 +11,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Builder
-public class UserModificationRequest implements Serializable{
+public class UserModificationRequest implements Serializable {
+
     private String email;
 
     private String password;

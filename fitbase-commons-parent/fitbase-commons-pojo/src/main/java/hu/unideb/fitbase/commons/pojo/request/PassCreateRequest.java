@@ -11,7 +11,17 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Builder
-public class AuthenticationRequest implements Serializable {
-    private String username;
-    private String password;
+public class PassCreateRequest implements Serializable{
+
+    private String name;
+
+    private Boolean isLimited;
+
+    private Integer limitNumber;
+
+    private Integer duration;
+
+    private Integer price;
+
+    private Boolean available;
 }
