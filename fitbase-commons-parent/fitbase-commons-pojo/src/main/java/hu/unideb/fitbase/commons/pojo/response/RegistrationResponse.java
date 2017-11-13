@@ -4,7 +4,9 @@ import java.io.Serializable;
 
 public class RegistrationResponse implements Serializable {
 
-    private Error errors;
+	private static final long serialVersionUID = -4306784361708673897L;
+	
+	private Error errors;
 
     public Error getErrors() {
         return errors;

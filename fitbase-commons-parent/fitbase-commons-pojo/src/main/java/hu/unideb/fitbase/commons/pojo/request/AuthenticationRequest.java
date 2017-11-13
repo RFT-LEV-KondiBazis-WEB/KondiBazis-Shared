@@ -3,7 +3,9 @@ package hu.unideb.fitbase.commons.pojo.request;
 import java.io.Serializable;
 
 public class AuthenticationRequest implements Serializable {
-    private String username;
+
+	private static final long serialVersionUID = 3233362437075275560L;
+	private String username;
     private String password;
 
     public AuthenticationRequest() {

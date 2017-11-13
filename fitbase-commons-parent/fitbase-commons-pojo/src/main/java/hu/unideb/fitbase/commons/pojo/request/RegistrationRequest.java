@@ -5,13 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.Date;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -19,7 +14,9 @@ import java.util.Date;
 @Builder
 public class RegistrationRequest implements Serializable {
 
-    private String username;
+	private static final long serialVersionUID = 4197255010441394121L;
+
+	private String username;
 
     private String email;
 

@@ -9,7 +9,9 @@ import java.util.List;
  */
 public class ViolationException extends BaseException {
 
-    private List<Violation> errors;
+	private static final long serialVersionUID = 9127953565512526393L;
+	
+	private List<Violation> errors;
 
 
     public ViolationException(List<Violation> violationList) {

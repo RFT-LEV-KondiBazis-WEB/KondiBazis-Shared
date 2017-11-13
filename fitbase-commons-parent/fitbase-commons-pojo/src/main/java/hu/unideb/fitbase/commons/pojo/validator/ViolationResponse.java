@@ -12,7 +12,9 @@ import java.util.List;
 @Data
 public class ViolationResponse implements Serializable {
 
-    private List<Violation> errors;
+	private static final long serialVersionUID = -7975169361136634876L;
+	
+	private List<Violation> errors;
 
     public static ViolationResponseBuilder builder() {
         return new ViolationResponseBuilder();

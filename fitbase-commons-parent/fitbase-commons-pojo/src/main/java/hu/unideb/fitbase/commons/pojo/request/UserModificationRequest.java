@@ -12,7 +12,10 @@ import java.io.Serializable;
 @Data
 @Builder
 public class UserModificationRequest implements Serializable{
-    private String email;
+
+	private static final long serialVersionUID = -5988468099465835248L;
+
+	private String email;
 
     private String password;
 

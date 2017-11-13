@@ -1,9 +1,14 @@
 package hu.unideb.fitbase.commons.pojo.request;
 
 import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Builder
 public class GymRequest implements Serializable {
@@ -16,7 +21,7 @@ public class GymRequest implements Serializable {
 
 	private String address;
 
-	private Integer zipCode;
+	private String zipCode;
 
 	private String description;
 
