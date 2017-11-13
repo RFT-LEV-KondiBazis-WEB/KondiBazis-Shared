@@ -1,6 +1,5 @@
 package hu.unideb.fitbase.commons.path.registration;
 
-
 /**
  * URIs for registration.
  */
