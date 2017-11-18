@@ -5,11 +5,19 @@ package hu.unideb.fitbase.commons.path.gym;
  */
 public class GymPath {
 
-	/**
-	 * URI for gyms create.
-	 */
-	public static final String GYM_CREATE_URL = "/gyms/create";
+    public static final String GYMS_LIST_BY_URL = "/gyms";
 
-	private GymPath() {
-	}
+    /**
+     * URI for gyms create.
+     */
+    public static final String GYM_CREATE_URL = "/gyms/create";
+
+    public static final String GYM_UPDATE_URL = "/gyms/update";
+
+    public static final String PARAM_GYM_ID = "gymId";
+
+    public static final String GYM_DELETE_URL = "/gyms/delete/{" + PARAM_GYM_ID + "}";
+
+    private GymPath() {
+    }
 }
