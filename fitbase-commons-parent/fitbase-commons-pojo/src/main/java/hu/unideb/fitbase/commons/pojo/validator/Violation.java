@@ -42,6 +42,12 @@ public class Violation implements Serializable {
         return new ViolationBuilder();
     }
 
+    @Override
+    public String toString() {
+    	StringBuilder sb=new StringBuilder();
+    	sb.append("field:").append(field).append("->").append(validationMessage);
+    	return sb.toString();
+    }
     public static final class ViolationBuilder {
         private String field;
         private String validationMessage;

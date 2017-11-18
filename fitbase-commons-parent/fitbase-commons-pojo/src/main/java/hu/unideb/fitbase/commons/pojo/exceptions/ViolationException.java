@@ -23,6 +23,6 @@ public class ViolationException extends BaseException {
     }
 
     public String toString() {
-        return "ViolationException{errors=" + this.errors + '}';
+        return "ViolationException{errors=" + this.errors.toString() + '}';
     }
 }
