@@ -1,8 +1,14 @@
 package hu.unideb.fitbase.commons.path.usermodification;
 
+/**
+ * URIs for user modification.
+ */
 public class UserModificationPath {
 
-    public static final String USER_MODIFICATION_URL = "/modification";
+    /**
+     * URI for user modification.
+     */
+    public static final String USER_MODIFICATION_URL = "/user/update";
 
     private UserModificationPath() {
     }

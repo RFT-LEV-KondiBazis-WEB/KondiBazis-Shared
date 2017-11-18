@@ -8,5 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class RegistrationSuccesResponse {
+    private Object data;
     private MetaResponse meta;
 }

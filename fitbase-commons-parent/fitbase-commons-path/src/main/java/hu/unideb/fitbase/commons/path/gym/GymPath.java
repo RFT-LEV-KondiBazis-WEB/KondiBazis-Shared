@@ -6,9 +6,9 @@ package hu.unideb.fitbase.commons.path.gym;
 public class GymPath {
 
 	/**
-	 * URI for gyms.
+	 * URI for gyms create.
 	 */
-	public static final String GYM_URL = "/gyms";
+	public static final String GYM_CREATE_URL = "/gyms/create";
 
 	private GymPath() {
 	}
