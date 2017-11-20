@@ -108,6 +108,8 @@ public class ColumnName {
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class PassColumName {
 
+        public static final String COULMN_NAME_PASS_ID = "pass_id";
+
         /**
          * Name column.
          */
@@ -190,6 +192,13 @@ public class ColumnName {
         public static final String COLUMN_NAME_STARTDATE = "start_date";
 
         public static final String COLUMN_NAME_ENDDATE = "end_date";
+
+    }
+
+    @NoArgsConstructor(access = AccessLevel.PRIVATE)
+    public static final class ReferencedColumName{
+
+        public static final String REFERENCED_COLUM_NAME_ID = "id";
 
     }
 

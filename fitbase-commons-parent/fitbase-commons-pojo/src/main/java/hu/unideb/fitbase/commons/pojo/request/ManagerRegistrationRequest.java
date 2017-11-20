@@ -5,18 +5,16 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.io.Serializable;
+
 import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
-public class RegistrationRequest implements Serializable {
+public class ManagerRegistrationRequest {
 
-	private static final long serialVersionUID = 4197255010441394121L;
-
-	private String username;
+    private String username;
 
     private String email;
 

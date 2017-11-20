@@ -11,9 +11,17 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Builder
-public class AuthenticationRequest implements Serializable {
+public class UserModificationRequest implements Serializable{
 
-	private static final long serialVersionUID = 3233362437075275560L;
-	private String username;
+	private static final long serialVersionUID = -5988468099465835248L;
+
+	private String email;
+
     private String password;
+
+    private String passwordConfirm;
+
+    private String firstName;
+
+    private String lastName;
 }

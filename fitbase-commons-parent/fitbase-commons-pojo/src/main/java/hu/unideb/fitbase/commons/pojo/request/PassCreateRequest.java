@@ -11,9 +11,17 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Builder
-public class AuthenticationRequest implements Serializable {
+public class PassCreateRequest implements Serializable{
 
-	private static final long serialVersionUID = 3233362437075275560L;
-	private String username;
-    private String password;
+    private String name;
+
+    private Boolean isLimited;
+
+    private Integer limitNumber;
+
+    private Integer duration;
+
+    private Integer price;
+
+    private Boolean available;
 }

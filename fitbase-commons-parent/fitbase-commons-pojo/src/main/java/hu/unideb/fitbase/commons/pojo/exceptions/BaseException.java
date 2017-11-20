@@ -2,7 +2,9 @@ package hu.unideb.fitbase.commons.pojo.exceptions;
 
 public class BaseException extends Exception {
 
-    public BaseException() {
+	private static final long serialVersionUID = 7103330392854220949L;
+
+	public BaseException() {
         super();
     }
 
