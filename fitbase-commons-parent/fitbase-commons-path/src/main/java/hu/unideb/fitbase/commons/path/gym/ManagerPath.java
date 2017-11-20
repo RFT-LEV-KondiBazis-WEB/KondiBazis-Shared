@@ -13,7 +13,7 @@ public class ManagerPath {
     /**
      * URI for gyms manager create.
      */
-    public static final String GYM_MANAGER_MODIFICATION_URL = "/gyms/manager/update";
+    public static final String GYM_MANAGER_UPDATE_URL = "/gyms/manager/update";
 
     private ManagerPath() {
     }
