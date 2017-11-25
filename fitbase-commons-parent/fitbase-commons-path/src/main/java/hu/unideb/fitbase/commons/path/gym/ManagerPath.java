@@ -5,6 +5,10 @@ package hu.unideb.fitbase.commons.path.gym;
  */
 public class ManagerPath {
 
+    public static final String PARAM_GYM_ID = "gymId";
+
+    public static final String GYM_ID = "/{" + PARAM_GYM_ID + "}";
+
     /**
      * URI for gyms manager create.
      */
