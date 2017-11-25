@@ -5,10 +5,12 @@ package hu.unideb.fitbase.commons.path.pass;
  */
 public class PassPath {
 
+    public static final String PARAM_GYM_ID = "gymId";
+
     /**
      * URI for pass create.
      */
-    public static final String PASS_CREATE_URL = "/passes/create";
+    public static final String PASS_CREATE_URL = "/passes/create/{" + PARAM_GYM_ID + "}";
 
     public static final String PASSES_LIST_BY_GYM_URL = "/passes";
 
