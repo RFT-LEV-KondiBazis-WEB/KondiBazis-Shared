@@ -41,5 +41,5 @@ public final class TableName {
 
     public static final String TABLE_NAME_CUSTOMER_HAS_PASS = "customer_has_pass";
 
-    public static final String TABLE_NAME_GYMS_HAS_PASS = "gyms_has_pass";
+    public static final String TABLE_NAME_PASS_HAS_GYM = "pass_has_gym";
 }

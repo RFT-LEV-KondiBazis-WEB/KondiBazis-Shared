@@ -7,10 +7,17 @@ public class PassPath {
 
     public static final String PARAM_GYM_ID = "gymId";
 
+    public static final String GYM_ID = "/{" + PARAM_GYM_ID + "}";
+
     /**
-     * URI for pass create.
+     * URI for Manager pass create.
      */
-    public static final String PASS_CREATE_URL = "/passes/create/{" + PARAM_GYM_ID + "}";
+    public static final String PASS_MANAGER_CREATE_URL = "/passes/manager/create";
+
+    /**
+     * URI for Admin pass create.
+     */
+    public static final String PASS_ADMIN_CREATE_URL = "/passes/admin/create";
 
     public static final String PASSES_LIST_BY_GYM_URL = "/passes";
 
