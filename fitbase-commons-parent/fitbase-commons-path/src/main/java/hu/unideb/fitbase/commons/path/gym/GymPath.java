@@ -12,7 +12,6 @@ public class GymPath {
      */
     public static final String GYM_CREATE_URL = "/gyms/create";
 
-    //ID
     public static final String GYM_UPDATE_URL = "/gyms/update";
 
     public static final String PARAM_GYM_ID = "gymId";

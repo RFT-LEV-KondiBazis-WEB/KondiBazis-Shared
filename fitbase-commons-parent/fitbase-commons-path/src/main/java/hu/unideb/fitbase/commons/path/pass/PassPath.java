@@ -9,19 +9,15 @@ public class PassPath {
 
     public static final String PARAM_PASS_ID = "passId";
 
+    public static final String PARAM_PASS_TYPE = "passType";
+
     public static final String GYM_ID = "/{" + PARAM_GYM_ID + "}";
 
     public static final String PASS_ID = "/{" + PARAM_PASS_ID + "}";
 
-    /**
-     * URI for Manager pass create.
-     */
-    public static final String PASS_MANAGER_CREATE_URL = "/passes/manager/create";
+    public static final String PASS_TYPE = "/{" + PARAM_PASS_TYPE + "}";
 
-    /**
-     * URI for Admin pass create.
-     */
-    public static final String PASS_ADMIN_CREATE_URL = "/passes/admin/create";
+    public static final String PASS_CREATE = "/passes/create";
 
     /**
      * URI for pass list by gym.
