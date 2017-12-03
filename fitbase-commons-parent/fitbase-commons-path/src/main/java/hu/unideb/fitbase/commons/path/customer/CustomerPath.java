@@ -13,23 +13,23 @@ public class CustomerPath {
     /**
      * URI for create customer.
      */
-    public static final String CUST_CREATE_URL = "/cutsomer/create";
+    public static final String CUST_CREATE_URL = "/cutsomers/create";
     
     /**
      * URI for update customer.
      */
-    public static final String CUST_UPDATE_URL = "/customer/update";
+    public static final String CUST_UPDATE_URL = "/customers/update";
     
 
     /**
      * URI for delete customer.
      */
-    public static final String CUST_DELETE_URL = "/customer/delete";
+    public static final String CUST_DELETE_URL = "/customers/delete";
     
     /**
      * URI for list customers.
      */
-    public static final String CUST_LIST_BY_URL = "/customer";
+    public static final String CUST_LIST_BY_URL = "/customers";
     
     private CustomerPath() {
     	
