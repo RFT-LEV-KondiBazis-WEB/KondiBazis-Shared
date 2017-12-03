@@ -13,7 +13,7 @@ public class CustomerPath {
     /**
      * URI for create customer.
      */
-    public static final String CUST_CREATE_URL = "/cutsomers/create";
+    public static final String CUST_CREATE_URL = "/customers/create";
     
     /**
      * URI for update customer.
