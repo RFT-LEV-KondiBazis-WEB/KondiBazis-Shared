@@ -1,6 +1,5 @@
 package hu.unideb.fitbase.commons.pojo.request;
 
-import hu.unideb.fitbase.commons.pojo.enumeration.PassType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,9 +17,11 @@ public class SuitablePassCreateRequest implements Serializable{
 
     private Integer price;
 
-    private PassType passType;
-
     private Integer duration;
+
+    private Integer timeDuration;
+
+    private String passTimeDurationType;
 
     private Boolean available;
 }
