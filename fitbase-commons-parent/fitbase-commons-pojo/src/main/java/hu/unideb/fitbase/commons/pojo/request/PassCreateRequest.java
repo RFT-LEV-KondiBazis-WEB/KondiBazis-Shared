@@ -11,11 +11,15 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Builder
-public class TimeLimitedPassCreateRequest implements Serializable {
+public class PassCreateRequest implements Serializable{
 
     private String name;
 
     private Integer price;
+
+    private String passType;
+
+    private Integer duration;
 
     private Integer timeDuration;
 
