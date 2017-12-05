@@ -31,6 +31,11 @@ public class CustomerPath {
      */
     public static final String CUST_LIST_BY_URL = "/customers";
     
+    
+    /**
+     * URI for list customers.
+     */
+    
     private CustomerPath() {
     	
     }
