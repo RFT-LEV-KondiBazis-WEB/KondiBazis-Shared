@@ -7,6 +7,8 @@ public class UserPath {
      */
     public static final String USERS= "/users";
 
+    public static final String MANAGER = "/manager";
+
     private UserPath(){
     }
 }
