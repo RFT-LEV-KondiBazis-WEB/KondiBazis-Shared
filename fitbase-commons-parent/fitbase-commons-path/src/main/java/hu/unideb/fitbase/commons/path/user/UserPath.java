@@ -5,7 +5,7 @@ public class UserPath {
     /**
      * URI for user info.
      */
-    public static final String USERS= "/users";
+    public static final String USERS = "/users";
 
     public static final String MANAGER = "/manager";
 
