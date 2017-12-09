@@ -14,6 +14,7 @@ import java.io.Serializable;
 public class AuthenticationRequest implements Serializable {
 
 	private static final long serialVersionUID = 3233362437075275560L;
+
 	private String username;
     private String password;
 }

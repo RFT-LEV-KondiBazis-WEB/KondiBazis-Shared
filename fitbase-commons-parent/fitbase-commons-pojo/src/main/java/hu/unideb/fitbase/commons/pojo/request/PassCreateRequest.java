@@ -15,13 +15,15 @@ public class PassCreateRequest implements Serializable{
 
     private String name;
 
-    private Boolean isLimited;
+    private Integer price;
 
-    private Integer limitNumber;
+    private String passType;
 
     private Integer duration;
 
-    private Integer price;
+    private Integer timeDuration;
+
+    private String passTimeDurationType;
 
     private Boolean available;
 }

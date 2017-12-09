@@ -116,14 +116,14 @@ public class ColumnName {
         public static final String COLUMN_NAME_NAME = "name";
 
         /**
-         * Limited column.
+         * Price column.
          */
-        public static final String COLUMN_NAME_IS_LIMITED = "is_limited";
+        public static final String COLUMN_NAME_PRICE = "price";
 
         /**
-         * Limit number column.
+         * Pass type column.
          */
-        public static final String COLUMN_NAME_LIMIT = "limit_number";
+        public static final String COLUMN_NAME_PASS_TYPE = "pass_type";
 
         /**
          * Duration column.
@@ -131,9 +131,9 @@ public class ColumnName {
         public static final String COLUMN_NAME_DURATION = "duration";
 
         /**
-         * Price column.
+         * Time duration column.
          */
-        public static final String COLUMN_NAME_PRICE = "price";
+        public static final String COLUMN_NAME_TIME_DURATION = "time_duration";
 
         /**
          * Available column.

@@ -1,4 +1,4 @@
-package hu.unideb.fitbase.commons.constants;
+package hu.unideb.fitbase.commons.constants.rules.registration;
 
 /**
  * Constants for registration.
