@@ -8,6 +8,10 @@ public class PassDurationConstants {
 
     public static final String NOT_ADD_DURATION = "not_add_duration";
 
+    public static final String ONLY_NUMBER_ADD = "number_add_only";
+
+    public static final String PASS_ONLY_NUMBER_REGEX = "[0-9]+";
+
     private PassDurationConstants() {
     }
 
