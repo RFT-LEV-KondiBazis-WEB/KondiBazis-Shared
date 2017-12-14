@@ -16,4 +16,6 @@ public class CustomerHistoryRequest implements Serializable {
 
     private Long gymId;
 
+    private Long passId;
+
 }
