@@ -46,11 +46,6 @@ public class ColumnName {
         public static final String COLUMN_NAME_LAST_NAME = "last_name";
 
         /**
-         * Remember token column.
-         */
-        public static final String COLUMN_NAME_REMEMBER_TOKEN = "remember_token";
-
-        /**
          * Create date column.
          */
         public static final String COLUMN_NAME_CREATED_DATE = "created_date";
@@ -189,9 +184,21 @@ public class ColumnName {
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class CustomerHistoryColumnName{
 
+        public static final String COLUMN_NAME_CUSTOMER_HISTORY_ID = "customer_history_id";
+
         public static final String COLUMN_NAME_STARTDATE = "start_date";
 
         public static final String COLUMN_NAME_ENDDATE = "end_date";
+
+        public static final String COLUMN_NAME_PASS_BUYDATE = "pass_buy_date";
+
+        public static final String COLUMN_NAME_PASS_STATUS = "pass_status";
+
+        public static final String COLUMN_NAME_PASS_NAME = "pass_name";
+
+        public static final String COLUMN_NAME_PASS_TYPE = "pass_type";
+
+        public static final String COLUMN_NAME_PASS_PRICE = "pass_price";
 
     }
 
