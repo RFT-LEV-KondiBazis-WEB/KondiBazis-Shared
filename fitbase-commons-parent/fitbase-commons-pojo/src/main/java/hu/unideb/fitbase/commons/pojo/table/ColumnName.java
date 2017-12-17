@@ -200,6 +200,9 @@ public class ColumnName {
 
         public static final String COLUMN_NAME_PASS_PRICE = "pass_price";
 
+        public static final String COLUMN_NAME_PASS_ALL_DURATION = "pass_all_duration";
+
+        public static final String COLUMN_NAME_PASS_LEFT_DURATION = "users_pass_left_duration";
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
