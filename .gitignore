@@ -1,5 +1,5 @@
 .idea/
 *.iml
 target
-.DC_Stores
+.DS_Store
 fitbase-commons-parent/\.DS_Store
