@@ -19,9 +19,9 @@ public class PassCreateRequest implements Serializable{
 
     private String passType;
 
-    private Integer duration;
+    private String duration;
 
-    private Integer timeDuration;
+    private String timeDuration;
 
     private String passTimeDurationType;
 

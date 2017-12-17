@@ -14,4 +14,6 @@ public class PathContainer {
 
     public static final String CUST_ID= "/{" + PARAM_CUST_ID + "}";
 
+    public static final String EMAILS = "/emails";
+
 }
