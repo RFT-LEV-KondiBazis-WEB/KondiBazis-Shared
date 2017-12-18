@@ -10,7 +10,9 @@ public class PassDurationConstants {
 
     public static final String ONLY_NUMBER_ADD = "number_add_only";
 
-    public static final String PASS_ONLY_NUMBER_REGEX = "[0-9]+";
+    public static final String PASS_ONLY_NUMBER_REGEX = "^([1-9][0-9]*)|([0]+)$";
+
+    public static final String PASS_NOT_ADD_NULL= "not_add_null";
 
     private PassDurationConstants() {
     }
